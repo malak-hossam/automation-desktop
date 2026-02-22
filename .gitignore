@@ -21,10 +21,6 @@ env/
 .env
 .env.local
 
-# Screenshots / output
-screenshots/
-*.png
-*.jpg
 
 # Models cache
 .cache/
