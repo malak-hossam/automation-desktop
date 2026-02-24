@@ -38,7 +38,7 @@ Actual Pixel: (301, 889)     ← on 1920×1080 screen
 
 ```powershell
 # 1. Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/malak-hossam/automation-desktop
 cd tjm
 
 # 2. Copy env file
@@ -108,4 +108,5 @@ tool
 | `ANNOTATE_SCREENSHOTS` | `true` | Save annotated debug images |
 | `GROUNDING_MAX_RETRIES` | `3` | Retry attempts per grounding call |
 | `NOTEPAD_LAUNCH_TIMEOUT` | `15` | Seconds to wait for Notepad to open |
+
 
