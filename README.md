@@ -1,4 +1,4 @@
-# TJM — Vision-Based Desktop Automation
+# Vision-Based Desktop Automation
 
 > **Desktop icon grounding via [UGround](https://arxiv.org/abs/2504.07981)**  
 > *"Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents"*
@@ -108,6 +108,7 @@ tool
 | `ANNOTATE_SCREENSHOTS` | `true` | Save annotated debug images |
 | `GROUNDING_MAX_RETRIES` | `3` | Retry attempts per grounding call |
 | `NOTEPAD_LAUNCH_TIMEOUT` | `15` | Seconds to wait for Notepad to open |
+
 
 
 
