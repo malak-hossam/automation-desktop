@@ -57,9 +57,6 @@ mkdir "$env:USERPROFILE\Desktop\tjm-project"
 # Full automation run (10 posts)
 uv run python main.py
 
-# Demo: ground the icon and save an annotated screenshot
-uv run python scripts/demo_grounding.py
-
 # Unit tests (no GPU needed)
 uv run pytest tests/ -v
 ```
@@ -78,7 +75,7 @@ uv run vllm serve osunlp/UGround-V1-2B --dtype float16
 ## Project Structure
 
 ```
-tjm/
+automation-desktop/
 ├── main.py                  # Orchestrator — runs the full 10-post workflow
 ├── src/
 │   ├── grounding.py         # UGround visual grounding engine (local + vLLM backends)
@@ -108,6 +105,7 @@ tool
 | `ANNOTATE_SCREENSHOTS` | `true` | Save annotated debug images |
 | `GROUNDING_MAX_RETRIES` | `3` | Retry attempts per grounding call |
 | `NOTEPAD_LAUNCH_TIMEOUT` | `15` | Seconds to wait for Notepad to open |
+
 
 
 
